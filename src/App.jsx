@@ -12,7 +12,7 @@ const initialPosts = [
     image: null,
     likes: 48,
     comments: [
-      { id: 1, user: "Ali Raza", text: "MashaAllah! Bahut acha hai 🙌", avatar: "AR", color: "#60a5fa" },
+      { id: 1, user: "Ali Khan", text: "MashaAllah! Bahut acha hai 🙌", avatar: "AK", color: "#60a5fa" },
     ],
     shares: 12,
     liked: false,
@@ -31,7 +31,7 @@ const initialPosts = [
     likes: 134,
     comments: [
       { id: 1, user: "Sara Ali", text: "Official docs best hai! 📖", avatar: "SA", color: "#fb923c" },
-      { id: 2, user: "Ahmed khan ", text: "useState samajh lo pehle 😄", avatar: "AB", color: "#a78bfa" },
+      { id: 2, user: "Ahmed khan ", text: "useState samajh lo pehle 😄", avatar: "AK", color: "#a78bfa" },
     ],
     shares: 27,
     liked: false,
@@ -65,7 +65,7 @@ const initialPosts = [
     image: null,
     likes: 201,
     comments: [
-      { id: 1, user: "Shakila Bano", text: "Congratulations bhai! 🎊", avatar: "ZK", color: "#f472b6" },
+      { id: 1, user: "Shakila Bano", text: "Congratulations bhai! 🎊", avatar: "BS", color: "#f472b6" },
     ],
     shares: 45,
     liked: false,
@@ -75,9 +75,9 @@ const initialPosts = [
 ];
 
 const suggestions = [
-  { name: "Prince Alam", handle: "@prince", avatar: "FN", color: "#f472b6" },
-  { name: "Sahroz Alam", handle: "@Shahal", avatar: "UT", color: "#34d399" },
-  { name: "Afroz Alam", handle: "@Afroz", avatar: "RM", color: "#60a5fa" },
+  { name: "Prince Alam", handle: "@prince", avatar: "PA", color: "#f472b6" },
+  { name: "Sahroz Alam", handle: "@Shahal", avatar: "AS", color: "#34d399" },
+  { name: "Afroz Alam", handle: "@Afroz", avatar: "AA", color: "#60a5fa" },
 ];
 
 export default function SocialApp() {
@@ -273,7 +273,7 @@ export default function SocialApp() {
                   <a href="https://github.com/adil3322" style={{ color: "#06b6d4", textDecoration: "none" }}>github.com/adil3322</a>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                  <span>📅</span> Joined Jan 2024
+                  <span>📅</span> Joined Jan 2026
                 </div>
               </div>
 
