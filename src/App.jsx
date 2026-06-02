@@ -543,7 +543,7 @@ export default function SocialApp() {
             position: "sticky", top: "84px",
           }}>
             <h4 style={{ margin: "0 0 14px", fontSize: "13px", color: "#94a3b8", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase" }}>🔥 Trending</h4>
-            {["#WebDevelopment", "#ReactJS", "#Pakistan", "#TechLife", "#OpenSource"].map((tag, i) => (
+            {["#WebDevelopment", "#ReactJS", "#Bihar", "#TechLife", "#OpenSource"].map((tag, i) => (
               <div key={tag} style={{
                 padding: "8px 0",
                 borderBottom: i < 4 ? "1px solid rgba(255,255,255,0.05)" : "none",
@@ -565,9 +565,9 @@ export default function SocialApp() {
           }}>
             <h4 style={{ margin: "0 0 14px", fontSize: "13px", color: "#94a3b8", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase" }}>🟢 Active Now</h4>
             {[
-              { name: "Zara Khan", avatar: "ZK", color: "#f472b6" },
-              { name: "Hamza S.", avatar: "HS", color: "#34d399" },
-              { name: "Bilal A.", avatar: "BA", color: "#a78bfa" },
+              { name: "Fakhrul islam", avatar: "FI", color: "#f472b6" },
+              { name: "Shahroz Alam.", avatar: "AS", color: "#34d399" },
+              { name: "Afroz Alam.", avatar: "AA", color: "#a78bfa" },
             ].map(u => (
               <div key={u.name} style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
                 <div style={{ position: "relative" }}>
